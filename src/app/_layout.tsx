@@ -8,7 +8,7 @@ export default function RootLayout() {
     <AnimatedBootSplash
       animationEnded={!splashVisible}
       onAnimationEnd={() => {
-        setSplashVisible(false);
+        // setSplashVisible(false);
       }}
     >
       <Stack />
